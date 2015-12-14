@@ -11,4 +11,8 @@ public interface EmployeeDao {
     List<Employee> findAllEmployees();
      
     void deleteEmployeeBySsn(String ssn);
+
+    Employee findById(int id);
+
+    Employee findEmployeeBySsn(String ssn);
 }
